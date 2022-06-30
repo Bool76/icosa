@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.companyContainer {
+    width: 100%;
+    text-align: center;
+}
+
+header {
+  background-color: #bfbfbf;
+}
+
+#results {
+  text-decoration: underline;
+  margin: 20px 0 0 0;
+  position: absolute;
+  top: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  left: 0;
+}
+
+.companyContainer h4 {
+    padding: 20px;
+    margin: 20px 0 50px 0;
+}
+
+.companyLine {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.companyInfoContainer {
+    margin: 20px 30px;
+    background-color: #282c34;
+    color: #fff;
+    padding: 15px 25px;
+    box-shadow: 2px 5px 10px #282c34;
+}
+
+input {
+    background: #A51013;
+    opacity: 0.8;
+    transition: 0.3s;
+    border: 0;
+    padding: 15px 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+input:hover {
+  opacity: 1
+}
+button {
+  cursor:pointer;
+}
+
+.container {
+  text-align: center;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+.stockPrice {
+  display: none;
+}
+
+.stockPrice.active {
+  display: inline-block;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
